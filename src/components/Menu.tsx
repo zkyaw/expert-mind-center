@@ -31,12 +31,6 @@ const menuItems = [
         visible: ["admin", "teacher"],
       },
       {
-        icon: "/subject.png",
-        label: "Subjects",
-        href: "/list/subjects",
-        visible: ["admin"],
-      },
-      {
         icon: "/class.png",
         label: "Classes",
         href: "/list/classes",
@@ -47,12 +41,6 @@ const menuItems = [
         label: "Lessons",
         href: "/list/lessons",
         visible: ["admin", "teacher"],
-      },
-      {
-        icon: "/exam.png",
-        label: "Exams",
-        href: "/list/exams",
-        visible: ["admin", "teacher", "student", "parent"],
       },
       {
         icon: "/assignment.png",
@@ -70,18 +58,6 @@ const menuItems = [
         icon: "/calendar.png",
         label: "Appointments",
         href: "/list/appointments",
-        visible: ["admin", "teacher", "student", "parent"],
-      },
-      {
-        icon: "/message.png",
-        label: "Messages",
-        href: "/list/messages",
-        visible: ["admin", "teacher", "student", "parent"],
-      },
-      {
-        icon: "/announcement.png",
-        label: "Announcements",
-        href: "/list/announcements",
         visible: ["admin", "teacher", "student", "parent"],
       },
     ],

@@ -35,6 +35,66 @@ export const teachersData = [
   },
 ];
 
+export const studentsData = [
+  {
+    id: 1,
+    studentId: "1234567890",
+    name: "Juan Dela Cruz",
+    email: "jdcruz@gmail.com",
+    phone: "1234567890",
+    grade: 3,
+    class: "1A",
+    address: "Manila",
+  },
+  {
+    id: 2,
+    studentId: "1234567890",
+    name: "Maria Dela Cruz",
+    email: "mdcruz@gmail.com",
+    phone: "1234567890",
+    grade: 5,
+    class: "1B",
+    address: "Muntinlupa",
+  },
+  {
+    id: 3,
+    studentId: "1234567890",
+    name: "Jose Santos",
+    email: "jsantos@gmail.com",
+    phone: "1234567890",
+    grade: 1,
+    class: "1C",
+    address: "Cavite",
+  },
+];
+
+export const parentsData = [
+  {
+    id: 1,
+    name: "Juan Dela Cruz",
+    email: "jdcruz@gmail.com",
+    phone: "1234567890",
+    students: ["Billy"],
+    address: "Manila",
+  },
+  {
+    id: 2,
+    name: "Maria Dela Cruz",
+    email: "mdcruz@gmail.com",
+    phone: "1234567890",
+    students: ["Julius"],
+    address: "Muntinlupa",
+  },
+  {
+    id: 3,
+    name: "Jose Santos",
+    email: "jsantos@gmail.com",
+    phone: "1234567890",
+    students: ["Dexter"],
+    address: "Cavite",
+  },
+];
+
 export const calendarEvents = [
   {
     title: "English",
